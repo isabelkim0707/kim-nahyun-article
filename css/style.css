@@ -1,0 +1,160 @@
+
+:root {
+/*color theme:*/
+  --darkgreen: #184C32;
+  --lightgreen: #698D0C;
+  --backtype: #CCCCCC;
+  --back: #54514A;
+  --point: #CC5820;
+
+
+
+
+}
+
+
+
+
+
+
+
+body{
+  text-align: left;
+  font-family: "helvetica bold", "avenir", sans-serif
+}
+
+/*header:*/
+
+.main-menu {
+  display: inline-block;
+  background-color:var(--back);
+  color:var(--backtype);
+  width: 100%;
+  min-width: 71em;
+  text-align: center;
+}
+
+.main-menu > li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 0;
+  padding: 0;
+  margin: 1em;
+  list-style: none
+}
+
+.main-menu > li:hover{
+  background-color: var(--point);
+  color:var(--backtype);
+  padding: 0em
+}
+
+a:link, a:visited {
+  color:var(--backtype);
+  text-decoration: none
+}
+
+/*main:*/
+
+.title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {font-size: 2em;
+  font-weight: 600;
+color:var(--darkgreen)}
+
+.title > nav {
+  display: block;
+  color:var(--point);
+  text-align: right;
+  margin-right: 0.5em;
+  padding: 0em;
+}
+
+
+
+.title > div {
+  display: block;
+  text-align: center;
+  margin-left: 0.5em;
+  color:var(--lightgreen)
+}
+
+p {font-size: 1em}
+
+h2 {font-size: 1.3em;
+font-weight: 200;
+margin-top: 1em;
+margin-bottom: 0.5em}
+
+.white {
+  min-width: 63em;
+  max-width: 70em;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-top: 3em;
+  text-align: left
+}
+
+
+.gallery > li{
+  display: inline-block;
+  text-align: center;
+  margin-right: 0;
+  padding: 0;
+  margin: 1em;
+  list-style: none;
+}
+
+.follow > li{
+  display: inline-block;
+  text-align: center;
+  margin-right: 0;
+  padding: 0;
+  margin: 1em;
+  list-style: none; 
+  color:var(--darkgreen);
+  font-weight: 700;
+
+
+}
+
+.follow {
+  border-bottom: 0.3em solid var(--lightgreen);
+  padding-bottom: 0em;
+}
+
+.related > li{
+  display: inline-block;
+  text-align: center;
+  margin-right: 0;
+  padding: 0;
+  margin: 1em;
+  list-style: none
+}
+
+.subscribe > li{
+  display: block;
+  text-align: left;
+  margin-right: 0;
+  margin-left: 20em;
+  padding: 0em;
+  margin: 1em;
+  list-style: none
+}
+
+/*footer:*/
+
+.footer {
+  display: inline-block;
+  background-color:var(--back);
+  color:var(--backtype);
+  width: 100%;
+  min-width: 71em;
+  min-height: 10em;
+  padding: 2em;
+  text-align: center;
+}
